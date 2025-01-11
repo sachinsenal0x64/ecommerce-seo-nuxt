@@ -29,7 +29,9 @@ useServerSeoMeta({
   ogTitle: title,
   ogDescription: description,
   ogImage: image,
-  ogImageUrl: image
+  ogImageUrl: image,
+  twitterCard: 'summary_large_image',
+  
 })
 </script>
 
