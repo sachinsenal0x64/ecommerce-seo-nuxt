@@ -22,12 +22,12 @@ useServerSeoMeta({
   title: () => title,
   description: () => productDetails.description,
   ogDescription: () => productDetails.description,
-  ogImage: () => productDetails.thumbnail,
-  ogImageUrl: () => productDetails.thumbnail,
+  ogImage: 'https://github.com/sachinsenal0x64/picx-images-hosting/raw/master/1700817787543.3w03dhsvmrls.webp',
+  ogImageUrl: 'https://github.com/sachinsenal0x64/picx-images-hosting/raw/master/1700817787543.3w03dhsvmrls.webp',
   twitterCard: () => 'summary_large_image',
   twitterTitle: () => title,
   twitterDescription: () => productDetails.description,
-  twitterImage: () => productDetails.thumbnail
+  twitterImage: 'https://github.com/sachinsenal0x64/picx-images-hosting/raw/master/1700817787543.3w03dhsvmrls.webp'
 })
 </script>
 
